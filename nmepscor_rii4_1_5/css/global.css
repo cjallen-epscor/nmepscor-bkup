@@ -1,0 +1,1132 @@
+
+hgroup.site-name-slogan {
+display : none;
+}
+
+strong.research-tool-name a{
+
+	font-size:115%;
+	margin-bottom:1em;
+	margin-top:1em;
+}
+.social-media-icon-sets{
+	clear:both;
+	height:30px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.fb-like-box2{
+	float:left;
+	width:50%;
+}
+
+
+.twitter-feed{
+	float:left;
+	width:45%;
+	
+}
+
+.flickr-feed{
+	clear:both;	
+}
+
+.view-publications-by-component caption a{
+	font-size:150%;
+	color: #8e0c0d;
+	text-decoration:none;
+	padding:1.4em;
+}
+
+.view-publications-by-component a{
+	text-decoration:none;
+	padding-top:1em;
+	padding-bottom:1em;
+}
+
+tr{
+	margin-bottom:3em;
+	margin-top:3em;
+	padding-top:1em;
+	padding-bottom:1em;
+	border-top:solid thin #ccc;
+}
+.research-tool-logo{
+	padding-top:1em;
+	padding-bottom:1em;
+}
+h2 {
+font-size : 115%;
+font-style : normal;
+}
+h2.events-titles {
+margin-top : 1em;
+padding-top : 1em;
+border-top : thin solid #ccc;
+}
+h2.events-titles a {
+text-decoration : none;
+}
+h2.past-events {
+margin-top : 3em;
+border-top : 0.5em solid #ccc;
+padding-top : 2em;
+}
+h2.social-media{
+	margin-top:1em;
+	margin-bottom:1em;
+	border-top: solid medium #8e0c0d;
+	padding-top:1em;
+}
+p.front-page-events-listing {
+font-style : normal;
+margin-left:70px;
+}
+.events-page-images {
+float : left;
+padding : 1em;
+display : block;
+clear : both;
+width : auto;
+height : 100%;
+}
+#first-time {
+display : none;
+}
+#region-postscript-third p {
+text-align : center;
+font-size : 85%;
+font-style : normal;
+}
+img.nsf-style {
+float : right;
+padding-left : 0.125em;
+display : inline;
+}
+.video-container {
+position : relative;
+padding-bottom : 56.25%;
+padding-top : 30px;
+height : 0;
+overflow : hidden;
+}
+.video-container iframe, .video-container object, .video-container embed {
+position : absolute;
+top : 0;
+left : 0;
+width : 100%;
+height : 100%;
+}
+.ds-2col-stacked > .group-left {
+float : left;
+width : 100%;
+padding : 1em;
+}
+.ds-2col-stacked > .group-right {
+float : left;
+/*width : 100%;*/
+padding : 1em;
+}
+.flexslider .flex-direction-nav a, .flexslider .flex-direction-nav a {
+display : block;
+}
+.flex-direction-nav .flex-next {
+right : 0 !important ;
+opacity : 1 !important ;
+}
+.flex-direction-nav .flex-prev {
+left : 0 !important ;
+opacity : 1 !important ;
+}
+.flexslider {
+margin : 0 auto;
+}
+.group-header img {
+width : 100%;
+height : auto;
+}
+#nmepscor-front-slider, #nmepscor-front-slider p, #nmepscor-front-slider h2 a, #nmepscor-front-slider img, .flexslider .slides img, .flex-direction-nav {
+display : none;
+}
+img.left {
+float : left;
+margin-right : 2em;
+width:24px;
+}
+img.img-border {
+border : #000 solid thin;
+padding : 1em;
+width : 50%;
+}
+body {
+font-size : 13px;
+line-height : 18px;
+font-family : "Lucida Grande" , helvetica, arial;
+width:99%;
+}
+h1.title {
+font-size : 175%;
+margin-top : 1em;
+line-height : 125%;
+color : #8e0c0d;
+font-weight:normal;
+}
+
+.ds-2col-stacked > .group-right {
+float: left;
+width: 100%;
+}
+
+.group-right .field-label {
+	font-size : 150%;
+	padding-top : 0.5em;
+	padding-bottom : 0.5em;
+	margin-top : 1em;
+	margin-bottom : 0.75em;
+	border-bottom : thin solid #8e0c0d;
+	font-family : "Open Sans Condensed", sans-serif;
+	color : #8e0c0d;
+	line-height:125%;
+}
+.group-right img {
+width : 100%;
+height : auto;
+}
+@media (max-width:970px) {
+.group-right img {
+height : auto;
+}
+}
+/*Hide sub menu and search block on mobile/narrow devices*/
+@media screen and (max-width:980px) {
+#block-menu-menu-about-sub-menus, #block-menu-menu-sub-menus, #search-block-form{
+visibility : hidden;
+display : none;
+}
+#block-menu-menu-about-sub-menus a, #block-menu-menu-sub-menus a {
+text-decoration : none;
+}
+}
+@media (min-width:400px) {
+ul li.leaf {
+list-style : none;
+float : left;
+}
+}
+.leaf .active-trail {
+color : #8e0c0d;
+}
+#zone-content {
+margin-bottom : 0;
+}
+#zone-header-wrapper {
+background-color : #ccc;
+}
+#zone-branding-wrapper {
+background-color : #e6e6e6;
+width : 100%;
+padding-top : 2em;
+border-bottom : thin solid #999999;
+}
+#region-branding {
+padding-top : 1em;
+padding-bottom : 1em;
+}
+#zone-menu-wrapper {
+background-color : #e6e6e6;
+width : 100%;
+}
+#zone-footer-wrapper {
+clear : both;
+background-color : #e6e6e6;
+width : 100%;
+border-top : thick solid #336666;
+padding-top : 20px;
+padding-bottom : 10px;
+}
+#section-footer {
+	padding-top:50px;
+}	
+#region-postscript-third {
+text-align : center;
+font-size : 90%;
+}
+#zone-postscript-wrapper {
+margin-top : 0.25em;
+}
+#region-preface-second p {
+padding-top : 0.5em;
+padding-right : 0.5em;
+padding-bottom : 0;
+padding-left : 0;
+}
+#region-preface-second h2.block-title {
+padding-top : 0.5em;
+padding-right : 0.5em;
+padding-bottom : 0;
+padding-left : 0;
+
+}
+
+#zone-postscript h2.block-title{
+	color:#fff;
+	padding-left:1em;
+}
+
+.region-header-second h2.block-title {
+font-size : 125%;
+}
+.region-postscript-first-inner h2.block-title a, .region-postscript-second-inner h2.block-title a, .region-postscript h2.block-title {
+color : #fff;
+text-decoration : none;
+font-size : 85%;
+}
+.region-postscript-first-inner h2.block-title, .region-postscript-second-inner h2.block-title {
+background : #8e0c0d;
+padding-top : 1em;
+padding-bottom : 1em;
+padding-right : 1em;
+padding-left : 0;
+width : 90%;
+}
+.front-calendar {
+background-image : url('/sites/all/themes/nmepscor_rii4_1_5/images/icon-events-calendar.png');
+background-repeat : no-repeat;
+background-position : left center;
+margin-bottom : 8px;
+padding-left : 60px;
+font-style : normal;
+}
+.front-calendar-upcoming {
+	margin-bottom : 8px;
+	height : 65px;
+	position : relative;
+	font-style : normal;
+	text-decoration : none;
+}
+.front-calendar-month {
+	width : 50px;
+	height : 1em;
+	z-index : 1;
+	padding-top : 0.5em;
+	padding-bottom : 0.65em;
+	background : #8e0c0d;
+	text-align : center;
+	text-transform : uppercase;
+	color : #fff;
+	display : block;
+	float : left;
+	clear : both;
+	top : .135em;
+	position : absolute;
+}
+
+.front-calendar-type-of-event{
+	margin-left : 70px;
+	font-size:90%;
+	float : left;
+	display : block;
+	clear : both;
+	color:#666;
+	font-style: italic;
+}
+.front-calendar-day {
+	font-size : 150%;
+	text-align : center;
+	width : 50px;
+	background : #d4d4d4;
+	font-weight : bold;
+	color : #8e0c0d;
+	text-transform : uppercase;
+	display : block;
+	float : left;
+	padding-top : 0.5em;
+	padding-bottom : 0.5em;
+	top : 1.25em;
+	position : absolute;
+}
+.front-calendar-title {
+	margin-left : 70px;
+	float : left;
+	display : block;
+	clear : both;
+	position : relative;
+	margin-top : 0em;
+	font-size : 125%;
+}
+
+
+.front-calendar-title a {
+text-decoration : none;
+}
+
+.front-calendar-title-left {
+	margin-left : 80px;
+	
+	display : block;
+	clear : both;
+	position : relative;
+	margin-top : 0em;
+	font-size : 125%;
+}
+
+
+.front-calendar-title-left a {
+text-decoration : none;
+}
+
+
+.front-calendar-location {
+margin-left : 70px;
+float : left;
+display : block;
+clear : both;
+}
+
+
+
+/*New Blog Styles*/
+
+.field-name-post-date,
+.field-name-field-author-url {
+	padding-right:1em;
+	display:inline-block;
+	font-size:80%;
+	font-weight:bold;
+	letter-spacing:2px;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+
+.field-name-post-date a,
+.field-name-field-author-url a{
+	text-decoration:none;
+}
+
+h1.blog-home-feature-title a {
+font-size : 100%;
+margin-top : 0.5em;
+display : block;
+text-decoration : none;
+line-height : 32px;
+}
+h1.blog-home-feature-title a:hover {
+color : #8e0c0d;
+text-decoration : underline;
+}
+.blog-feature-categories {
+clear : left;
+float : left;
+padding-right : 1em;
+text-transform : none;
+font-size : 90%;
+height : 12px;
+margin-bottom : 0.5em;
+}
+p.blog-feature-categories-categ {
+text-transform : uppercase;
+clear : none;
+float : left;
+color : #666;
+}
+.blog-feature-categories a {
+padding-left : 0.25em;
+text-decoration : none;
+}
+.blog-home-feature-date {
+font-size : 100%;
+color : #8e0c0d;
+display : block;
+float : left;
+margin-right : 0.5em;
+}
+p.blog-home-feature-categories a {
+color : #000;
+text-transform : uppercase;
+margin-top : 0.25em;
+margin-bottom : 0.25em;
+margin-right : 0.5em;
+text-decoration : none;
+font-size : 90%;
+}
+p.blog-home-feature-categories-label {
+color : #666;
+text-transform : uppercase;
+margin-top : 0.25em;
+margin-bottom : 0.25em;
+margin-right : 0.5em;
+font-size : 90%;
+}
+.blog-feature-authors {
+clear : none;
+float : left;
+left : 0;
+margin-right : 0.25em;
+padding-right : 1em;
+text-transform : none;
+margin-bottom : 1em;
+height : 14px;
+font-size : 90%;
+width : 100%;
+}
+.blog-feature-authors a {
+padding-left : 0.5em;
+text-decoration : none;
+font-size : 90%;
+}
+.blog-feature-authors-label {
+text-transform : uppercase;
+clear : none;
+float : left;
+color : #666;
+font-size : 90%;
+padding-right : 0.5em;
+}
+.blog-home-feature-image {
+border : #999 solid 2px;
+}
+.blog-home-feature-image img {
+width : 100%;
+height : auto;
+}
+.blog-home-feature-body {
+clear : both;
+}
+.blog-secondary-list-image img {
+float : right;
+top : 0;
+position : relative;
+display : block;
+margin-top : -6em;
+border : #000 solid 2px;
+width : 75%;
+height : auto;
+}
+.blog-secondary-list-date, div.group-left .field-name-post-date {
+float : left;
+margin-top : 2em;
+margin-bottom : 1em;
+padding-bottom : 1em;
+border-bottom : thin solid #ccc;
+clear : left;
+display : inline-block;
+color : #8e0c0d;
+width : 80%;
+font-size : 120%;
+}
+.blog-secondary-list-categories, div.group-left .field-name-field-nmepscor-blog-categories {
+width : 80%;
+float : left;
+margin-bottom : 1em;
+padding-bottom : 1em;
+border-bottom : thin solid #ccc;
+clear : left;
+display : inline-block;
+text-transform : uppercase;
+font-size : 90%;
+color : #666;
+}
+.blog-secondary-list-categories a, div.group-left .field-name-field-nmepscor-blog-categories a {
+text-decoration : none;
+text-transform : none;
+}
+.blog-secondary-list-author, div.group-left .field-name-field-author-2 {
+width : 80%;
+float : left;
+margin-bottom : 1em;
+border-bottom : thin solid #ccc;
+clear : left;
+display : inline-block;
+text-transform : none;
+font-size : 90%;
+color : #666;
+padding-bottom : 1em;
+}
+.blog-secondary-list-author a, div.group-left .field-name-field-nmepscor-blog-author a {
+text-decoration : none;
+text-transform : none;
+}
+.secondary-blog-nodes {
+margin-top : 1.5em;
+border-top : 2px dotted #ccc;
+padding-top : 1.5em;
+}
+div.blog-image-thumb {
+float : left;
+margin-right : 1em;
+clear : both;
+border : #ccc solid thin;
+width:60px;
+position:absolute;
+}
+.field-name-title h2, .field-name-title h2 a:link {
+margin-top : 1.5em;
+color : #336666;
+}
+.field-name-title h2 a:hover {
+text-decoration : underline;
+color : #8e0c0d;
+}
+.field-name-title a:link, .field-name-title a {
+color : #8e0c0d;
+text-decoration : none;
+font-size : 100%;
+margin-top : 2em;
+line-height : 24px;
+}
+.field-name-field-nmepscor-blog-image {
+margin-bottom : 2em;
+border : #999 solid 1px;
+}
+.field-name-post-date {
+font-size : 90%;
+}
+.field-name-field-nmepscor-blog-author {
+font-size : 90%;
+margin-top : 0.75em;
+margin-bottom : 0.75em;
+}
+.field-name-body {
+margin-top : 1em;
+}
+h1.blog-author-page-teaser a {
+font-size : 120%;
+border-top : thin dotted #666;
+margin-top : 0.5em;
+padding-top : 0.5em;
+display : block;
+text-decoration : none;
+line-height : 32px;
+}
+.view-display-id-block_1 li {
+padding-top : 0.25em;
+margin-left : 0.25em;
+list-style-image : url('/sites/all/images/bullet_arrow3.png');
+}
+.ds-2col > .group-left {
+float : left;
+width : 30%;
+}
+.ds-2col > .group-right {
+float : left;
+width : 70%;
+}
+#region-menu {
+clear : both;
+position : relative;
+right : 0;
+}
+#region-menu h2.block-title {
+display : block;
+position : absolute;
+right : 3em;
+top : -3em;
+font-size : 14px;
+}
+
+
+.field .field-label {
+font-weight: bold;
+ padding-top: 0; 
+}
+
+.front-page-news-listing{
+	margin-top:.5em;
+	margin-bottom:1.5em;
+}
+
+.front-page-news-listing p{
+	margin-left:80px;
+	}
+
+.front-page-news-listing img{
+	position:absolute
+}
+
+
+/*CI DataPortal User Guide Styles*/
+
+.ci-user-guide-img-border {
+	border:thin solid #d4d4d4;
+	
+	}
+	
+		
+/*Directory */
+
+
+ul.views-summary li {
+	display: inline;
+	color: white;
+	margin: 0;
+}
+
+ul.views-summary li a {
+	border-right: thin solid #999;
+	padding-right: 5px;
+	float: left;
+	margin-right: 5px;
+}
+
+.view-directory h3{
+	background:#8E0C0D;
+	color:#fff;
+	font-size:125%;
+	padding:1em;
+	clear: both;
+}
+
+.exposed-filter-directory-button-area{
+	clear:both;
+	height:80px;
+	margin-bottom:1em;
+}
+
+.directory-cards{
+	border-top: 1px dashed #8E0C0D;
+	display:block;
+	height:110px;
+	clear:both;
+	padding:2em;
+}
+
+h2.top-filter-button,
+h3.directory-footer,
+h3.directory-footer-mobile-only{
+
+	border-radius: 4px;
+	width: 100%;
+	text-decoration: none;
+	border: 1px solid #e3dfd5;
+	background-color: #f2f1eb;
+	padding-top:.5em;
+	padding-bottom:.5em;
+	text-transform: uppercase;
+	float:left;
+	margin-right:1.25em;
+	text-align:center;
+	font-size:125%;
+}
+
+h2.top-filter-button a,
+h3.directory-footer a,
+h3.directory-footer-mobile-only a{
+	text-decoration:none;
+}
+
+h2.top-filter-button a,
+h3.directory-footer a{
+	text-decoration:none;
+}
+
+.blank-directory-cards{
+	display:none;
+}
+
+/*Research Tools Pager Styles*/
+h3.research-tools-footer
+{
+	font-weight:normal;
+	text-align:center;
+	width: 30%;
+	padding: .5em;
+	color: #fff;
+	border-radius: 6px;
+	border: solid thin #ccc;
+	cursor: pointer;
+	margin-top: 2em;
+	margin-left:auto;
+	margin-right:auto;
+}
+h3.research-tools-footer a {
+	text-decoration:none;
+	margin-top:1em;
+}
+
+/* Research Tools Individual Tool Styles */
+
+.field-name-field-manufacturer-link,
+.field-name-field-licensing  {
+	margin-top:1em;
+}
+
+
+/* New Program and Outreach columns */
+p.ed-outreach-margins{
+	margin-top:1em;
+	margin-bottom:1em;
+	font-size:85%;
+}
+
+.program-page-postcards{
+	font-size:85%;
+	position:relative;
+	margin-bottom:1em;
+	border-top: thin solid #8e0c0d;
+	padding-top:1em;
+}
+
+.postcard-left{
+	/*float:left;*/
+	display: block;
+}
+
+.postcard-right{
+	
+
+}
+
+.postcard-left img{
+	float:left;
+	width:100px;
+	max-width:200px;
+	padding-right:3em;
+	position:relative;
+	left:0;
+	top:0;
+	margin-bottom:2em;
+}
+
+/**
+ * @file
+ * Styling for the ds_2col_fluid template --- *Override for Biblio Lite CT ***
+ */
+
+.ds-2col-fluid > .group-left {
+  float: left; /* LTR */
+  width: 45%;
+  padding-right:1em;
+}
+
+.group-left img.full-width-inside {
+	width:100%;
+	height:auto;
+}
+
+.ds-2col-fluid > .group-right {
+  float: right; /* LTR */
+  width: 50%;
+  /*width:90%;*/
+}
+
+.ds-2col-fluid.group-one-column > .group-left,
+.ds-2col-fluid.group-one-column > .group-right {
+  width: 100%;
+  float: none;
+}
+
+.group-left .field-label {
+	/*font-size: 150%;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	margin-top: 1em;
+	margin-bottom: .75em;
+	border-bottom: thin solid #8e0c0d;
+	font-family: 'Open Sans Condensed',sans-serif;
+	color: #8e0c0d;*/
+	font-size: 100%;
+	font-weight:bold;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	margin-top: 1em;
+	margin-bottom: .75em;
+	/*border-bottom: thin solid #8e0c0d;
+	font-family: 'Open Sans Condensed',sans-serif;*/
+	color: #8e0c0d;
+}
+
+/*multi-column Biblio Lite columns modifications*/
+#edit-field-epscor-researcher.field-type-node-reference.field-name-field-epscor-researcher.field-widget-options-buttons .form-wrapper
+{
+	background:#ccc;
+	float:left;
+	max-height:300px;
+}
+.form-item.form-type-checkboxes.form-item-field-epscor-researcher-und
+{
+	background:#ccc;
+	float:left;
+	max-height:300px;
+}
+#field-epscor-researcher .form-item-form-type-checkboxes{
+	background:#ccc;
+	float:left;
+	max-height:300px;
+	width: 50%;
+}
+
+#edit-field-publication-type-und.form-checkboxes
+ {
+  margin-left: 5px;background:#ccc;
+  font-size:150%;
+}
+
+#edit-field-publication-type.form-radios .form-item,
+#edit-field-publication-type .form-checkboxes .form-item {
+   width: 50%;
+  float: left;
+}
+
+
+/*New Data Portal Landing Page styles */
+
+.float-data-portal-left{
+	width:45%;
+	float:left;
+	display:block;
+	padding:1em;
+}
+
+.float-data-portal-right{
+	width:45%;
+	float:left;
+	display:block;
+	padding:1em;
+}
+
+img.portal-images{
+	width: 200px;
+	float: left;
+	display: inline-block;
+	margin-right: 7.25em;
+	margin-bottom: 2em;
+}
+
+h1.data-portal{
+	margin-top:2em;
+	margin-bottom:2em;
+}
+
+/*hovers for images on Data Portal Landing page */
+
+/*bioalgal*/
+.bioalgal-image { 
+	float: left;
+	display: inline-block;
+	margin-right: 1.25em;
+	margin-bottom:2em;
+	width: 150px; 
+	height:150px; 
+	display:block; 
+	background-image: url('/sites/all/dataportal/images/portal-icons/Bioalgal_color-150.jpg');
+} 
+
+.bioalgal-image:hover { 
+	background-image: url('/sites/all/dataportal/images/portal-icons/Bioalgal_gray-150.jpg'); 
+} 
+
+/*solar*/
+.solar-image { 
+	float: left;
+	display: inline-block;
+	margin-right: 1.25em;
+	margin-bottom:2em;
+	width: 150px; 
+	height:150px; 
+	display:block; 
+	background-image: url('/sites/all/dataportal/images/portal-icons/Solar_color-150.jpg');
+} 
+
+.solar-image:hover { 
+	background-image: url('/sites/all/dataportal/images/portal-icons/Solar_gray-150.jpg'); 
+} 
+
+/*Uranium*/
+.uranium-image { 
+	float: left;
+	display: inline-block;
+	margin-right: 1.25em;
+	margin-bottom:2em;
+	width: 150px; 
+	height:150px; 
+	display:block; 
+	background-image: url('/sites/all/dataportal/images/portal-icons/Uranium_color-150.jpg');
+} 
+
+.uranium-image:hover { 
+	background-image: url('/sites/all/dataportal/images/portal-icons/Uranium_gray-150.jpg'); 
+} 
+
+/*Osmotic*/
+.osmotic-image { 
+	float: left;
+	display: inline-block;
+	margin-right: 1.25em;
+	margin-bottom:2em;
+	width: 150px; 
+	height:150px; 
+	display:block; 
+	background-image: url('/sites/all/dataportal/images/portal-icons/Osmotic_color-150.jpg');
+} 
+
+.osmotic-image:hover { 
+	background-image: url('/sites/all/dataportal/images/portal-icons/Osmotic_gray-150.jpg'); 
+} 
+
+/*Geothermal*/
+.geothermal-image { 
+	float: left;
+	display: inline-block;
+	margin-right: 1.25em;
+	margin-bottom:2em;
+	width: 150px; 
+	height:150px; 
+	display:block; 
+	background-image: url('/sites/all/dataportal/images/portal-icons/Geothermal_color-150.jpg');
+} 
+
+.geothermal-image:hover { 
+	background-image: url('/sites/all/dataportal/images/portal-icons/Geothermal_gray-150.jpg'); 
+} 
+
+/*Social and Natural Science Social Nexus*/
+.soc-nat-sci-image { 
+	float: left;
+	display: inline-block;
+	margin-right: 1.25em;
+	margin-bottom:2em;
+	width: 150px; 
+	height:150px; 
+	display:block; 
+	background-image: url('/sites/all/dataportal/images/portal-icons/SNSN_color-150.jpg');
+} 
+.soc-nat-sci-image:hover { 
+	background-image: url('/sites/all/dataportal/images/portal-icons/SNSN_gray-150.jpg'); 
+} 
+
+/*Workforce Development*/
+.wrkfrce-dev-image { 
+	float: left;
+	display: inline-block;
+	margin-right: 1.25em;
+	margin-bottom:2em;
+	width: 150px; 
+	height:150px; 
+	display:block; 
+	background-image: url('/sites/all/dataportal/images/portal-icons/Geothermal_color-150.jpg');
+} 
+.wrkfrce-dev-image:hover { 
+	background-image: url('/sites/all/dataportal/images/portal-icons/Geothermal_gray-150.jpg'); 
+} 
+
+/*Climate Change Impacts*/
+.climate-change-image { 
+	float: left;
+	display: inline-block;
+	margin-right: 1.25em;
+	margin-bottom:2em;
+	width: 150px; 
+	height:150px; 
+	display:block; 
+	background-image: url('/sites/all/dataportal/images/portal-icons/climate-change-color-150.jpg');
+} 
+
+.climate-change-image:hover { 
+	background-image: url('/sites/all/dataportal/images/portal-icons/climate-change-gray-150.jpg'); 
+} 
+
+/*Directory Menu Styles*/
+#block-menu-menu-directory-menu a{
+	margin-bottom:2em;
+	margin-top:2em;
+}
+
+#block-menu-menu-directory-menu ul li.leaf a{
+	font-family: 'Open Sans Condensed',sans-serif;
+	border-radius: 4px;
+	
+	text-decoration: none;
+	border: 1px solid #e3dfd5;
+	background-color: #f2f1eb;
+	padding-top:.5em;
+	padding-bottom:.5em;
+	padding-left:1.35em;
+	padding-right:1.35em;
+	text-transform: uppercase;
+	float:left;
+	margin-right:2.25em;
+	margin-left: 1.5em;
+	text-align:center;
+	font-size:150%;
+}
+
+#block-menu-menu-directory-menu ul li.leaf a.active-trail{
+	background:#8E0C0D;
+	color:#fff;}
+
+
+
+
+
+/***************************/
+
+
+
+/*Directory + Educdation & Outreach Programs Submenu Styles*/
+#block-menu-menu-menu-education-outreach-sub a{
+	margin-bottom:2em;
+	margin-top:2em;
+}
+
+#block-menu-menu-menu-education-outreach-sub ul li.leaf a{
+	font-family: 'Open Sans Condensed',sans-serif;
+	border-radius: 4px;
+	text-decoration: none;
+	border: 1px solid #e3dfd5;
+	background-color: #f2f1eb;
+	padding-top:.5em;
+	padding-bottom:.5em;
+	padding-left:.5em;
+	padding-right:.5em;
+	text-transform: uppercase;
+	float:left;
+	margin-right:.35em;
+	margin-left: .35em;
+	text-align:center;
+	font-size:90%;
+}
+
+#block-menu-menu-menu-education-outreach-sub ul li.leaf a.active-trail{
+	background:#8E0C0D;
+	color:#fff;
+	}
+	
+/***************************/
+
+
+/* New Program and Outreach columns */
+p.ed-outreach-margins{
+	margin-top:1em;
+	margin-bottom:1em;
+	font-size:85%;
+}
+
+.program-page-postcards{
+	font-size:85%;
+	position:relative;
+	margin-bottom:1em;
+	border-top: thin solid #8e0c0d;
+	padding-top:1em;
+}
+
+.postcard-left{
+	/*float:left;*/
+	display: block;
+}
+
+.postcard-right{
+	
+
+}
+
+.postcard-left img{
+	float:left;
+	width:100px;
+	max-width:200px;
+	padding-right:3em;
+	position:relative;
+	left:0;
+	top:0;
+	margin-bottom:2em;
+}

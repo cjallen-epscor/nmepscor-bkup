@@ -1,0 +1,423 @@
+/* This file will hold styles that are loaded using the same media query as the normal grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
+h2{
+	font-size:155%;
+}
+
+#region-menu{
+	clear:none;
+	margin-top:-5em;
+	margin-left:0;
+	position:relative;
+	z-index:99;
+	right:0;
+	text-transform:normal;
+}
+
+#region-menu h2.block-title{
+	display:none;
+}
+
+#search-block-form{
+	margin-top:4em;
+	float:right;
+	display:block;
+}
+
+/*Front Page Featured Story/Image styles--------------*/
+
+#zone-header{
+	/*margin-top:.5em;*/	
+}
+
+#region-header-first {
+	display:block;
+}
+
+/*
+#region-header-first p{
+	z-index: 10;
+	color:#fff;
+	display:block;
+	float:right;
+	position:absolute;
+	bottom:0;
+	padding-bottom:2em;
+	padding-right:1em;
+	right:0;
+	width:80%;
+}
+
+
+*/
+
+
+img.wc-wave-page {
+	width:100%;
+	height:auto;
+}
+
+#region-header-second h2.block-title{
+	padding-top:.5em;
+	padding-right: .5em ;
+	padding-bottom:0em ;
+	padding-left:.5em;	
+}
+
+.region-header-second h2.block-title{
+	font-size:225%;
+}
+
+
+.region-postscript-first-inner h2.block-title,
+.region-postscript-second-inner h2.block-title{
+	font-size: 125%;
+	background:#fff;
+	padding-top:1em 
+	padding-bottom:1em;
+	padding-right: 1em;
+	padding-left:0;	
+}
+
+.region-postscript-first-inner h2.block-title a,
+.region-postscript-second-inner h2.block-title a{
+	color: #8e0c0d;
+	text-decoration: none;
+	font-size: 125%;
+	margin-left:0;
+	padding-left:0;
+	
+}
+
+#block-menu-menu-sub-menus{
+	font-size:145%;
+}
+
+/*Reveal slider title*/	
+#nmepscor-front-slider h2 a{
+	font-size:155%;
+	margin-bottom:0em;
+	}
+	
+/*Reveal slider body/paragraph*/	
+#nmepscor-front-slider p{
+	color:#fff;
+	text-decoration:none;
+	display:block;
+	font-size:100%;
+	}	
+	
+/*Reveal submenus for desktop*/
+
+#block-menu-menu-about-sub-menus,
+#block-menu-menu-sub-menus,
+#block-menu-menu-cyberinfrastructure-sub-men,
+#block-menu-menu-education-outreach-submenus,
+#block-menu-menu-data-portal-submenu
+{
+	display:block;	
+}
+
+/*MAIL CHIMP EMAIL SIGNUP BLOCK - STYLES -- FOOTER*/
+#mc_embed_signup input#mce-EMAIL.email{
+	margin-bottom:1em;
+} 
+  				
+/*Directory*/	
+.directory-cards{
+	border-top: 1px dashed #8E0C0D;
+	margin-top: 20px;
+	clear:both;
+	position:relative;
+	padding:1em;
+}
+
+.directory-picture{
+	width:100px;
+	display:block;
+	margin-right:1em;
+	margin-top:.5em;
+	margin-left:-1em;
+	margin-bottom:1em;	
+	float:left;
+}
+
+ul.views-summary li {
+	display: inline;
+	color: white;
+	margin: 0;
+}
+
+ul.views-summary li a {
+	border-right: thin solid #999;
+	padding-right: 5px;
+	float: left;
+	margin-right: 5px;
+}
+
+h2.directory-name{
+	margin-bottom:0;
+}
+
+h2.directory-name a{
+	text-decoration:none;
+}
+
+.view-directory h3{
+	background:#8E0C0D;
+	color:#fff;
+	font-size:150%;
+	padding:1em;
+}
+
+.exposed-filter-directory-button-area{
+	clear:both;
+	height:40px;
+}
+
+h2.top-filter-button{
+	width: 18%;
+	font-size:135%;
+	margin-left:3%;
+}
+
+
+/* New Program and Outreach columns */
+.postcard-left img{
+	float:left;
+	width:200px;
+
+	padding-right:3em;
+	position:relative;
+	left:0;
+	top:0;
+	margin-bottom:2em;
+}
+
+.postcard-left{
+	float:left;
+}
+
+.postcard-right{
+	float:right;
+	width:62%;
+	
+}
+
+.postcard-right p{
+	float:left;
+	width:100%;
+}
+
+.postcard-right-full-width{
+	width:100%;
+	display:block;
+}
+
+
+/*New Data Portal Landing Page styles */
+#data-portal-rows-cards{
+	max-width:950px;
+	width:950px;
+}
+
+.float-data-portal-left{
+	width:45%;
+	float:left;
+	display:block;
+	padding:1em;
+}
+
+.float-data-portal-right{
+	width:45%;
+	float:left;
+	display:block;
+	padding:1em;
+}
+
+img.portal-images{
+	width: 200px;
+	float: left;
+	display: inline-block;
+	margin-right: 7.25em;
+	margin-bottom: 2em;
+}
+
+/*hovers for images on Data Portal Landing page */
+
+/*bioalgal*/
+.bioalgal-image { 
+	float: left;
+	display: inline-block;
+	margin-right: 2.25em;
+	margin-bottom:2em;
+	width: 200px; 
+	height:200px; 
+	display:block; 
+	background-image: url('/sites/all/dataportal/images/portal-icons/Bioalgal_color-200.jpg');
+} 
+
+.bioalgal-image:hover { 
+	background-image: url('/sites/all/dataportal/images/portal-icons/Bioalgal_gray-200.jpg'); 
+} 
+
+/*solar*/
+.solar-image { 
+	float: left;
+	display: inline-block;
+	margin-right: 2.25em;
+	margin-bottom:2em;
+	width: 200px; 
+	height:200px; 
+	display:block; 
+	background-image: url('/sites/all/dataportal/images/portal-icons/Solar_color-200.jpg');
+} 
+
+.solar-image:hover { 
+	background-image: url('/sites/all/dataportal/images/portal-icons/Solar_gray-200.jpg'); 
+} 
+
+/*Uranium*/
+.uranium-image { 
+	float: left;
+	display: inline-block;
+	margin-right: 2.25em;
+	margin-bottom:2em;
+	width: 200px; 
+	height:200px; 
+	display:block; 
+	background-image: url('/sites/all/dataportal/images/portal-icons/Uranium_color-200.jpg');
+} 
+
+.uranium-image:hover { 
+	background-image: url('/sites/all/dataportal/images/portal-icons/Uranium_gray-200.jpg'); 
+} 
+
+/*Osmotic*/
+.osmotic-image { 
+	float: left;
+	display: inline-block;
+	margin-right: 2.25em;
+	margin-bottom:2em;
+	width: 200px; 
+	height:200px; 
+	display:block; 
+	background-image: url('/sites/all/dataportal/images/portal-icons/Osmotic_color-200.jpg');
+} 
+
+.osmotic-image:hover { 
+	background-image: url('/sites/all/dataportal/images/portal-icons/Osmotic_gray-200.jpg'); 
+} 
+
+/*Geothermal*/
+.geothermal-image { 
+	float: left;
+	display: inline-block;
+	margin-right:2.25em;
+	margin-bottom:2em;
+	width: 200px; 
+	height:200px; 
+	display:block; 
+	background-image: url('/sites/all/dataportal/images/portal-icons/Geothermal_color-200.jpg');
+} 
+
+.geothermal-image:hover { 
+	background-image: url('/sites/all/dataportal/images/portal-icons/Geothermal_gray-200.jpg'); 
+} 
+
+/*Social and Natural Science Social Nexus*/
+.soc-nat-sci-image { 
+	float: left;
+	display: inline-block;
+	margin-right:2.25em;
+	margin-bottom:2em;
+	width: 200px; 
+	height:200px; 
+	display:block; 
+	background-image: url('/sites/all/dataportal/images/portal-icons/SNSN_color-200.jpg');
+} 
+.soc-nat-sci-image:hover { 
+	background-image: url('/sites/all/dataportal/images/portal-icons/SNSN_gray-200.jpg'); 
+} 
+
+/*Workforce Development*/
+.wrkfrce-dev-image { 
+	float: left;
+	display: inline-block;
+	margin-right:2.25em;
+	margin-bottom:2em;
+	width: 200px; 
+	height:200px; 
+	display:block; 
+	background-image: url('/sites/all/dataportal/images/portal-icons/Workforce_color-200.jpg');
+} 
+
+.wrkfrce-dev-image:hover { 
+	background-image: url('/sites/all/dataportal/images/portal-icons/Workforce_gray-200.jpg'); 
+} 
+
+/*Climate Change Impacts*/
+.climate-change-image { 
+	float: left;
+	display: inline-block;
+	margin-right:2.25em;
+	margin-bottom:2em;
+	width: 200px; 
+	height:200px; 
+	display:block; 
+	background-image: url('/sites/all/dataportal/images/portal-icons/climate-change-color-200.jpg');
+} 
+
+.climate-change-image:hover { 
+	background-image: url('/sites/all/dataportal/images/portal-icons/climate-change-gray-200.jpg'); 
+} 
+
+#view-dir-by-institution h3,
+.view-content h3,
+.directory-cards h3 {
+background: #8E0C0D;
+color: #fff;
+font-size: 150%;
+padding: 1em;
+}
+
+.view-content h3 a{
+	text-decoration:none;
+	color:#fff;
+}
+
+
+/*Directory + Educdation & Outreach Programs Submenu Styles*/
+#block-menu-menu-menu-education-outreach-sub a{
+	margin-bottom:2em;
+	margin-top:2em;
+}
+
+#block-menu-menu-menu-education-outreach-sub ul li.leaf a{
+	font-family: 'Open Sans Condensed',sans-serif;
+	border-radius: 4px;
+	text-decoration: none;
+	border: 1px solid #e3dfd5;
+	background-color: #f2f1eb;
+	padding-top:.5em;
+	padding-bottom:.5em;
+	padding-left:.75em;
+	padding-right:.75em;
+	text-transform: uppercase;
+	float:left;
+	margin-right:1.25em;
+	margin-left: .5em;
+	text-align:center;
+	font-size:135%;
+}
+
+#block-menu-menu-menu-education-outreach-sub ul li.leaf a.active-trail{
+	background:#8E0C0D;
+	color:#fff;
+	}
+	
+
+
+
+

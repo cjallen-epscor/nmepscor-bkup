@@ -1,0 +1,129 @@
+/* This file will hold styles that are loaded using the same media query as the wide grid. */
+
+/*Front Page Featured Story/Image styles--------------*/
+
+
+/*============= MENU STYLES=================*/
+
+#region-menu{
+	clear:none;
+	margin-top:1em;
+	margin-left:0;
+	position:relative;
+	z-index:99;
+	right:0;
+}
+
+#search-block-form{
+	margin-top:-1em;
+	margin-bottom:.5em;
+	float:right;
+	display:block;
+}
+
+
+
+.region-postscript-first-inner h2.block-title,
+.region-postscript-second-inner h2.block-title{
+	font-size: 140%;
+	padding-top:1em ;
+	padding-bottom:1em;
+	padding-right: 1em;
+	padding-left:0;	
+	
+}
+
+
+/*Reveal slider title*/	
+#nmepscor-front-slider h2 a{
+	font-size:175%;
+	margin-bottom:0em;
+	}
+	
+/*Reveal slider body/paragraph*/	
+#nmepscor-front-slider p{
+
+	font-size:100%;
+}	
+	
+/*directory styles*/
+
+h2.top-filter-button{
+	width: 220px;
+	font-size:150%;
+	margin-left:1.5%;
+}
+
+/*CI Research Tools*/
+
+.research-tool-rows{
+	border-top: 1px dashed #8E0C0D;
+	margin-top: 20px;
+	clear:both;
+	position:relative;
+	padding:1em;
+}
+
+.research-tool-rows p{
+	margin-left:7.5em;
+}
+
+.research-tool-logo{
+	/*width:100px;
+	display:block;
+	margin-right:1em;
+	margin-top:.5em;
+	margin-left:-1em;
+	margin-bottom:1em;
+	padding-bottom:6em;
+	float:left;*/
+}
+
+h2.research-tool-name a{
+	text-decoration:none;
+}
+
+/* New Program and Outreach columns */
+
+.postcard-left{
+}
+
+.postcard-right{
+	width:70%;
+}
+
+/*New Data Portal Landing Page styles */
+#data-portal-rows-cards{
+	max-width:1250px;
+}
+
+
+/*Directory + Educdation & Outreach Programs Submenu Styles*/
+#block-menu-menu-menu-education-outreach-sub a{
+	margin-bottom:2em;
+	margin-top:2em;
+}
+
+#block-menu-menu-menu-education-outreach-sub ul li.leaf a{
+	font-family: 'Open Sans Condensed',sans-serif;
+	border-radius: 4px;
+	text-decoration: none;
+	border: 1px solid #e3dfd5;
+	background-color: #f2f1eb;
+	padding-top:.5em;
+	padding-bottom:.5em;
+	padding-left:1.5em;
+	padding-right:1.5em;
+	text-transform: uppercase;
+	float:left;
+	margin-right:1.5em;
+	margin-left: .75em;
+	text-align:center;
+	font-size:135%;
+}
+
+#block-menu-menu-menu-education-outreach-sub ul li.leaf a.active-trail{
+	background:#8E0C0D;
+	color:#fff;
+	}
+	

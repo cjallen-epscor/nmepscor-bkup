@@ -1,0 +1,145 @@
+/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+
+
+
+/**
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ * Front Page Slide show settings DEFAULT Settings - basically, everything inclusive
+ * 
+ * This hides the slideshow for mobile (global.css) and reveals for all else 
+ * (tablet/destop inside narrow.css/normal.css/wide.css)
+ * 
+ * This is all inclusive (i.e. same backgrounds, widths, paddings, etc)
+ *  
+ * Also, the id #nmepscor-front-slider is created in the front page slider view in the body
+ * {Hide Title, body and rewrite body to use title/body tokens}
+ * 
+ * Author cjallen@epscor.unm.edu
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ */
+ 
+ /*Reveal image*/
+.flexslider .slides img,
+.flex-direction-nav{
+	display:block;
+}
+
+ /*Reveal the transparent slider block*/
+#nmepscor-front-slider{
+	/*background: url('/sites/all/themes/nmepscor_rii4_1_5/images/bg-front-page.png');*/
+    background: rgba(0,0,0,0.75);
+	z-index:5;
+	width:79%;
+	float:right;
+	bottom:0;
+	right:0;
+	position:absolute;
+	height:25%;
+	padding:1.25em;
+	display:block;
+	}
+	
+	
+/*Reveal slider title*/	
+#nmepscor-front-slider h2 a{
+	color:#fff;
+	text-decoration:none;
+	display:block;
+	font-size:90%;
+	margin-bottom:-.75em;
+	}
+	
+#nmepscor-front-slider h2 a:hover{
+	color:#FF6633;
+}
+	
+
+/*Reveal slider body/paragraph*/	
+#nmepscor-front-slider p{
+	color:#fff;
+	text-decoration:none;
+	display:block;
+	font-size:85%;
+	}	
+
+/*============= MENU STYLES=================*/
+
+#region-menu{
+	clear:both;
+
+	position:relative;
+	right:-12em;
+}
+
+
+
+#region-menu h2.block-title{
+
+}
+
+div.spring-15-events{
+	
+	padding-bottom:.5em;
+	padding-top:.5em;
+	display:inline-block;
+	clear:none;
+	
+	height:auto;
+	border-bottom: dashed thin #fff;
+}
+
+.spring-15-events img{
+	
+	padding-bottom:.5em;
+	padding-top:.5em;
+	display:inline-block;
+	clear:none;
+	float:left;
+
+}
+div.spring-15-events .views-field-title a,
+div.spring-15-events .span .views-field-title a{
+	padding:0;
+	margin:0;	
+	color:#faaa14;
+	  display: inherit;
+}
+
+
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+/*Twitter and 'recent posts' blocks on blog page spacing*/
+
+#region-sidebar-second, #block-block-4{
+	margin-top:3em;
+	
+}
+
+.region-sidebar-second h2.block-title {
+	font-size: 150%;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	margin-top: 1em;
+	margin-bottom: .75em;
+	border-bottom: thin solid #8e0c0d;
+}
+
+
+.region-postscript-first-inner h2.block-title,
+.region-postscript-second-inner h2.block-title{
+	background:#fff;
+	padding-top:1em;
+	padding-bottom:1em;
+	padding-right: 1em;
+	padding-left:0;	
+	width:90%;
+	color: #8e0c0d;
+}
+
+.region-postscript-first-inner h2.block-title a,
+.region-postscript-second-inner h2.block-title a{
+	font-size:115%;
+	color: #8e0c0d;
+}

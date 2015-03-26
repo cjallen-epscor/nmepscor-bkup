@@ -1,0 +1,207 @@
+
+
+a:link, a:visited {
+  color: #336666;
+  text-decoration: underline;
+}
+
+a:hover {
+ color:#761a17;
+  text-decoration: none;
+}
+
+a:active {
+  color: #202124;
+  text-decoration: none;
+  color: #000;
+}
+
+a.footer-links{
+	color:#000;
+	text-decoration:none;
+	font-size:90%;
+	line-height:100%;
+	font-style:normal;
+}
+
+hr {
+  margin: 0;
+  padding: 0;
+  border: none;
+  height: 1px;
+  background: #336666;
+}
+
+blockquote {
+    border-top: 1px solid #ccc; 
+    border-bottom: 1px solid #ccc;
+    color: #8C8A8A;
+    font-style: italic;
+    margin: 3em;
+    padding: 3em;    
+    text-align: left;  
+	z-index:19;
+} 
+
+blockquote:before {
+	display: block;
+	content: "\201C";
+	font-size: 80px;
+	position:relative;
+	left: -.75em;
+	top: .5em;
+	color: #ccc;	
+	z-index:3;
+}
+
+h1 {
+  font-size: 175%;
+}
+
+h1.title{
+	font-size: 200%;
+	margin-top:1em;
+}
+
+
+h2 {
+  	font-size: 155%;
+	color:#8e0c0d;
+  
+}
+
+/* Make site titles the same size if it's an H1 (home) or H2 (internal) */
+h1.site-name,
+h2.site-name {
+ 	font-size: 150%;
+}
+
+h2.node-title {
+  font-size: 28px;
+  line-height:30px
+}
+
+h2.node-title a{
+
+  text-decoration:none;
+}
+
+h3 {
+  font-size: 135%;
+	margin-top:1em;
+	padding-top:1em;
+}
+
+h3.dashed {
+  font-size: 135%;
+  	border-top: dashed thin #761a17; 
+	margin-top:1em;
+	padding-top:1em;
+}
+
+h3.title {
+  font-size: 21px;
+  color:green;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h4 {
+  font-size: 19px;
+}
+
+h5 {
+  font-size: 17px;
+}
+
+h6 {
+	border-top: solid thin #761a17; 
+  font-size: 15px;
+}
+
+ol {
+  list-style: decimal;
+  padding-left: 4em;
+  margin-left:2em;
+}
+
+ul {
+ list-style-image:url('/sites/all/images/bullet_arrow3.png');
+  padding-left: 2em;
+  margin-left:1em;
+}
+
+ul ul,
+ol ol {
+  padding-top: 0.5em;
+  
+}
+
+.node ol,
+.node ul {
+  padding-left: 1.2em;
+}
+
+.node ul.inline,
+.node ol.inline {
+  padding-left: 0;
+}
+
+p, dl, hr, h1, h2, h3, h4, h5, h6, ol,
+ul, pre, table, address, fieldset {
+	margin-bottom:1em;
+ 
+}
+
+dt, .admin h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+dd {
+  padding-left: 10px;
+  font-size: 0.9em;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.region-postscript-fourth p{
+	text-align:center;
+	font-size:75%;
+	font-style:normal;
+}
+
+/*Science Focus Team List Styles*/
+
+ul.science-list-column-2 {
+	-moz-column-count:2; /* Firefox */
+	-moz-column-gap: 10px;
+	-webkit-column-count:2; /* Safari and Chrome */	
+	column-count: 2;
+	column-gap: 10px;
+}
+
+ul.science-list-column-3 {
+	-moz-column-count:3; /* Firefox */
+	-moz-column-gap: 10px;
+	-webkit-column-count:3; /* Safari and Chrome */	
+	column-count: 3;
+	column-gap: 10px;
+}
+
+ul.science-list-column-4 {
+	-moz-column-count:4; /* Firefox */
+	-moz-column-gap: 5px;
+	-webkit-column-count:4; /* Safari and Chrome */	
+	column-count: 4;
+	column-gap: 10px;
+}
+
+ul.science-list-column-5 {
+	-moz-column-count:5; /* Firefox */
+	-moz-column-gap: 10px;
+	-webkit-column-count:5; /* Safari and Chrome */	
+	column-count: 5;
+	column-gap: 10px;
+}
+
+
