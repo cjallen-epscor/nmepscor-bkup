@@ -1,7 +1,5 @@
 /* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
 
-
-
 /**
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
  * Front Page Slide show settings DEFAULT Settings - basically, everything inclusive
@@ -17,7 +15,6 @@
  * Author cjallen@epscor.unm.edu
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
  */
- 
  /*Reveal image*/
 .flexslider .slides img,
 .flex-direction-nav{
@@ -42,25 +39,78 @@
 	
 /*Reveal slider title*/	
 #nmepscor-front-slider h2 a{
-	color:#fff;
+	color: #faaa14;
 	text-decoration:none;
 	display:block;
-	font-size:90%;
 	margin-bottom:-.75em;
-	}
-	
+	-webkit-font-smoothing: antialiased;
+	 -webkit-text-stroke: 0.35px
+}
+
+#nmepscor-front-slider a:link, a:visited {
+	color: #faaa14;
+	text-decoration:none;
+}
+
+#nmepscor-front-slider a:hover {
+	text-decoration:underline;
+}
+
+
 #nmepscor-front-slider h2 a:hover{
-	color:#FF6633;
+	color: #33cccc;
+}
+
+.front-calendar-title a:link, a:visited {
+	color : #336666;
+
 }
 	
-
 /*Reveal slider body/paragraph*/	
 #nmepscor-front-slider p{
 	color:#fff;
 	text-decoration:none;
 	display:block;
-	font-size:85%;
+	font-size:90%;
+	margin-top:-.65em;
 	}	
+
+
+/*BreadCrumb Styles*/
+.inline li, .tabs li, .breadcrumb li {
+  list-style: none;
+  display: inline;
+  margin-right:1.25em;
+  padding-right:.5em;
+  text-transform:uppercase;
+  text-decoration:none;
+}
+
+.breadcrumb li:after{
+  content: '/';
+  /*content:'\25BA';*/
+  color: #e6e6e6;
+  padding-left:1.5em;
+   text-decoration:none;
+ }
+ 
+.inline li a, .tabs li a, .breadcrumb li a {
+  text-decoration:none;
+}
+
+.inline li a:hover, .tabs li a:hover, .breadcrumb li a:hover,
+.inline li a:active, .tabs li a:active, .breadcrumb li a:active {
+  text-decoration:underline;
+  color: #faaa14;
+}
+/**/
+
+#zone-postscript h2.block-title{
+	color:#8e0c0d;	
+	padding-left:0;
+	font-size : 150%;
+}
+  
 
 /*============= MENU STYLES=================*/
 
@@ -71,42 +121,39 @@
 	right:-12em;
 }
 
-
-
 #region-menu h2.block-title{
-
 }
 
 div.spring-15-events{
-	
 	padding-bottom:.5em;
 	padding-top:.5em;
 	display:inline-block;
 	clear:none;
-	
+	font-weight:300;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke: 0.35px
 	height:auto;
 	border-bottom: dashed thin #fff;
 }
 
 .spring-15-events img{
-	
 	padding-bottom:.5em;
 	padding-top:.5em;
 	display:inline-block;
 	clear:none;
 	float:left;
-
 }
+
 div.spring-15-events .views-field-title a,
 div.spring-15-events .span .views-field-title a{
 	padding:0;
 	margin:0;	
 	color:#faaa14;
-	  display: inherit;
+	display: inherit;
+	font-weight:600;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke: 0.35px
 }
-
-
-
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
@@ -114,7 +161,6 @@ div.spring-15-events .span .views-field-title a{
 
 #region-sidebar-second, #block-block-4{
 	margin-top:3em;
-	
 }
 
 .region-sidebar-second h2.block-title {

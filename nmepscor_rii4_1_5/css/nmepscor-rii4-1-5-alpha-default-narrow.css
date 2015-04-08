@@ -2,8 +2,6 @@
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the normal and widescreen layouts. You may override these styles in the normal 
  *  and widescreen CSS files as appropriate. */
-
-
 /*
  * Styles for Basic Page Content Types 
  * 
@@ -28,16 +26,21 @@
 	padding: 1em;
 }
 
-#zone-postscript h2.block-title{
-	color:#8e0c0d;	
-	padding-left:0;
-	font-size : 150%;
+
+
+img.left {
+float : left;
+margin-right : 2em;
+width:24px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   /*letter-spacing: -0.05em;*/
-	 font-family: 'Open Sans Condensed',sans-serif;
-	font-weight:bold;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	font-size:110%;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke: 0.35px
 	color:#8e0c0d;	
 }
 
@@ -345,6 +348,7 @@ div.blog-image-thumb{
 	color:#fff;
 	text-decoration:none;
 	display:block;
+	font-size:135%;
 	}
 
 /*Reveal slider body/paragraph*/	
@@ -352,6 +356,8 @@ div.blog-image-thumb{
 	color:#fff;
 	text-decoration:none;
 	display:block;
+	line-height:115%;
+	margin-top:.1em;
 	}	
 	
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
@@ -847,3 +853,9 @@ img.programs-listing{
 }
 
 /************************/
+
+
+h2.front-calendar-title-left a,
+h2.front-calendar-title a{
+ 	font-size:110%;
+}
