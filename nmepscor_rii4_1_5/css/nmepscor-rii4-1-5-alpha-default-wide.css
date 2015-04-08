@@ -34,6 +34,11 @@
 }
 
 
+h2.front-calendar-title-left a,
+h2.front-calendar-title a{
+ 	font-size:120%;
+}
+
 /*Reveal slider title*/	
 #nmepscor-front-slider h2 a{
 	font-size:175%;
@@ -42,8 +47,9 @@
 	
 /*Reveal slider body/paragraph*/	
 #nmepscor-front-slider p{
-
+	margin-top:0;
 	font-size:100%;
+	line-height:150%;
 }	
 	
 /*directory styles*/
@@ -97,7 +103,6 @@ h2.research-tool-name a{
 	max-width:1250px;
 }
 
-
 /*Directory + Educdation & Outreach Programs Submenu Styles*/
 #block-menu-menu-menu-education-outreach-sub a{
 	margin-bottom:2em;
@@ -126,4 +131,9 @@ h2.research-tool-name a{
 	background:#8E0C0D;
 	color:#fff;
 	}
-	
+
+/*New spring template chnages*/
+
+#nmepscor-front-slider h4.feature-front-spring15 a{
+	font-size:145%;	
+}

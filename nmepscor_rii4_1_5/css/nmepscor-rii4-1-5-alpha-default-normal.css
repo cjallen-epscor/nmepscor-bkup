@@ -1,9 +1,7 @@
 /* This file will hold styles that are loaded using the same media query as the normal grid. */
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
-h2{
-	font-size:155%;
-}
+
 
 #region-menu{
 	clear:none;
@@ -51,7 +49,11 @@ h2{
 
 
 */
-
+img.left,img.left-clear-right  {
+float : left;
+margin-right : 2em;
+width:24px;
+}
 
 img.wc-wave-page {
 	width:100%;
@@ -106,6 +108,7 @@ img.wc-wave-page {
 	text-decoration:none;
 	display:block;
 	font-size:100%;
+	line-height:135%;
 	}	
 	
 /*Reveal submenus for desktop*/
@@ -182,6 +185,11 @@ h2.top-filter-button{
 	margin-left:3%;
 }
 
+h2.front-calendar-title-left a,
+h2.front-calendar-title a{
+
+ 	font-size:110%;
+}
 
 /* New Program and Outreach columns */
 .postcard-left img{
@@ -378,7 +386,7 @@ img.portal-images{
 .directory-cards h3 {
 background: #8E0C0D;
 color: #fff;
-font-size: 150%;
+font-size: 135%;
 padding: 1em;
 }
 

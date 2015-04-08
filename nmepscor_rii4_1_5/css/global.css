@@ -3,6 +3,15 @@ hgroup.site-name-slogan {
 display : none;
 }
 
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke: 0.35px
+	color:#8e0c0d;	
+}
+
+
 strong.research-tool-name a{
 
 	font-size:115%;
@@ -12,20 +21,24 @@ strong.research-tool-name a{
 .social-media-icon-sets{
 	clear:both;
 	height:30px;
+	padding-bottom:1em;
 	margin-left:auto;
 	margin-right:auto;
+	border-bottom: solid medium #8e0c0d;
 }
 
 .fb-like-box2{
-	float:left;
-	width:50%;
+	float:right;
+	width:45%;
+	margin-right:1em;
 }
 
 
 .twitter-feed{
 	float:left;
 	width:45%;
-	
+	margin-right:1em;
+	display:inline-block;
 }
 
 .flickr-feed{
@@ -37,6 +50,8 @@ strong.research-tool-name a{
 	color: #8e0c0d;
 	text-decoration:none;
 	padding:1.4em;
+	float: left;
+
 }
 
 .view-publications-by-component a{
@@ -59,6 +74,8 @@ tr{
 h2 {
 font-size : 115%;
 font-style : normal;
+font-family: 'Open Sans', sans-serif;
+
 }
 h2.events-titles {
 margin-top : 1em;
@@ -76,7 +93,7 @@ padding-top : 2em;
 h2.social-media{
 	margin-top:1em;
 	margin-bottom:1em;
-	border-top: solid medium #8e0c0d;
+	/*border-top: solid medium #8e0c0d;*/
 	padding-top:1em;
 }
 p.front-page-events-listing {
@@ -146,13 +163,27 @@ margin : 0 auto;
 width : 100%;
 height : auto;
 }
-#nmepscor-front-slider, #nmepscor-front-slider p, #nmepscor-front-slider h2 a, #nmepscor-front-slider img, .flexslider .slides img, .flex-direction-nav {
+
+#nmepscor-front-slider h2 a, #nmepscor-front-slider p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:100;
+	
+}
+
+
+#nmepscor-front-slider, #nmepscor-front-slider p, 
+#nmepscor-front-slider h2 a,
+#nmepscor-front-slider img, 
+.flexslider .slides img, 
+.flex-direction-nav {
 display : none;
 }
-img.left {
+img.left,
+img.left-clear-right {
 float : left;
-margin-right : 2em;
-width:24px;
+margin-right :1.2em;
+padding-bottom:1em;
+width:18px;
 }
 img.img-border {
 border : #000 solid thin;
@@ -185,7 +216,7 @@ width: 100%;
 	margin-top : 1em;
 	margin-bottom : 0.75em;
 	border-bottom : thin solid #8e0c0d;
-	font-family : "Open Sans Condensed", sans-serif;
+	font-family : "Open Sans", sans-serif;
 	color : #8e0c0d;
 	line-height:125%;
 }
@@ -266,12 +297,13 @@ padding-top : 0.5em;
 padding-right : 0.5em;
 padding-bottom : 0;
 padding-left : 0;
-
+font-size:150%;
 }
 
 #zone-postscript h2.block-title{
 	color:#fff;
 	padding-left:1em;
+	
 }
 
 .region-header-second h2.block-title {
@@ -299,7 +331,7 @@ padding-left : 60px;
 font-style : normal;
 }
 .front-calendar-upcoming {
-	margin-bottom : 8px;
+	margin-bottom : 1.25em;
 	height : 65px;
 	position : relative;
 	font-style : normal;
@@ -346,6 +378,7 @@ font-style : normal;
 	top : 1.25em;
 	position : absolute;
 }
+
 .front-calendar-title {
 	margin-left : 70px;
 	float : left;
@@ -353,27 +386,37 @@ font-style : normal;
 	clear : both;
 	position : relative;
 	margin-top : 0em;
-	font-size : 125%;
+	margin-bottom:-.07em;
+	
 }
 
-
-.front-calendar-title a {
-text-decoration : none;
-}
 
 .front-calendar-title-left {
 	margin-left : 80px;
-	
 	display : block;
 	clear : both;
 	position : relative;
 	margin-top : 0em;
-	font-size : 125%;
+
 }
 
-
 .front-calendar-title-left a {
+	text-decoration : none;
+}
+
+h2.front-calendar-title-left a,
+h2.front-calendar-title a{
 text-decoration : none;
+  font-weight: 500;
+ -webkit-font-smoothing: antialiased;
+ -webkit-text-stroke: 0.35px
+ 	margin-bottom:-1em;
+ 	font-size:100%;
+}
+
+h2.front-calendar-title-left a:hover,
+h2.front-calendar-title a:hover{
+  color: #8e0c0d;
 }
 
 
@@ -625,7 +668,10 @@ top : -3em;
 font-size : 14px;
 }
 
-
+#zone-footer h2.block-title{
+	clear:both;
+	margin-top:.5em;
+}
 .field .field-label {
 font-weight: bold;
  padding-top: 0; 
@@ -638,6 +684,7 @@ font-weight: bold;
 
 .front-page-news-listing p{
 	margin-left:80px;
+	margin-top:-1em;
 	}
 
 .front-page-news-listing img{
@@ -1030,13 +1077,16 @@ h1.data-portal{
 #block-menu-menu-directory-menu a{
 	margin-bottom:2em;
 	margin-top:2em;
+	text-decoration: none;
+	
 }
 
 #block-menu-menu-directory-menu ul li.leaf a{
-	font-family: 'Open Sans Condensed',sans-serif;
+	font-family: 'Open Sans',sans-serif;
 	border-radius: 4px;
-	
-	text-decoration: none;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke: 0.35px
 	border: 1px solid #e3dfd5;
 	background-color: #f2f1eb;
 	padding-top:.5em;
@@ -1048,12 +1098,14 @@ h1.data-portal{
 	margin-right:2.25em;
 	margin-left: 1.5em;
 	text-align:center;
-	font-size:150%;
+	font-size:115%;
 }
 
 #block-menu-menu-directory-menu ul li.leaf a.active-trail{
 	background:#8E0C0D;
-	color:#fff;}
+	color:#fff;
+
+}
 
 
 
@@ -1070,7 +1122,7 @@ h1.data-portal{
 }
 
 #block-menu-menu-menu-education-outreach-sub ul li.leaf a{
-	font-family: 'Open Sans Condensed',sans-serif;
+	font-family: 'Open Sans',sans-serif;
 	border-radius: 4px;
 	text-decoration: none;
 	border: 1px solid #e3dfd5;
@@ -1129,4 +1181,41 @@ p.ed-outreach-margins{
 	left:0;
 	top:0;
 	margin-bottom:2em;
+}
+
+/*New spring template chnages*/
+
+.spring15-slider{
+	background:#ccc;
+}
+
+div.slider-block-spring-testing-clone{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size:110%;
+	 -webkit-font-smoothing: antialiased;
+	 -webkit-text-stroke: 0.35px
+}
+
+#nmepscor-front-slider h4.feature-front-spring15 a{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:100;
+	font-size:125%;
+	text-decoration:none;
+	color: #faaa14;
+}
+/*
+.view-display-id-block_1 li {
+	list-style-image: none;
+}
+
+.view-display-id-block_1 li a{
+	font-weight:100;
+	font-size:100%;
+	text-decoration:none;
+	color: #faaa14;
+}
+*/
+
+	
 }
